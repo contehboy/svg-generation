@@ -27,7 +27,7 @@ const schema = {
 // Start prompt
 prompt.start();
 
-// Get user input from user
+// Get user input from users
 prompt.get(schema, function (err, result) {
   if (err) {
     console.log(err);
