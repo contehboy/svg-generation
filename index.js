@@ -24,7 +24,7 @@ const schema = {
   },
 };
 
-// Start the prompt
+// Start prompt
 prompt.start();
 
 // Get user input from user
