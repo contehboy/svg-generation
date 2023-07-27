@@ -72,7 +72,7 @@ prompt.get(schema, function (err, result) {
     ],
   };
 
-  // Convert the JSON structure to SVG
+  // Convert JSON structure to SVG
   const svgString = svgson.stringify(svgObj);
 
   // SVG to file
