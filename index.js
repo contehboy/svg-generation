@@ -34,7 +34,7 @@ prompt.get(schema, function (err, result) {
     return;
   }
 
-  // Create SVG based on user input
+  // Create SVG based on user inputS
   const svgObj = {
     name: "svg",
     type: "element",
