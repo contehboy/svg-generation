@@ -75,7 +75,7 @@ prompt.get(schema, function (err, result) {
   // Convert the JSON structure to SVG
   const svgString = svgson.stringify(svgObj);
 
-  // Write SVG to file
+  // SVG to file
   fs.writeFile("logo.svg", svgString, function (err) {
     if (err) {
       console.log(err);
